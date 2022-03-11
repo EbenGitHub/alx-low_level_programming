@@ -8,12 +8,14 @@
  */
 int main(void)
 {
+	{
+	int c;
 
-	/* your code goes there */
-	for (char c = 'a'; c <= 'z'; c++)
-    {
-        putchar("%c ", c);
-    }
+	for (c = 97; c <= 122; c++)
+	{
+		putchar(c);
+	}
+	printf("\n");
 	return (0);
-
+	}
 }
