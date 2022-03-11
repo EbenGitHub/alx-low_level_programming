@@ -8,14 +8,12 @@
  */
 int main(void)
 {
-	int n;
+	char c;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	for (char ch = 'a'; ch <= 'z'; ch++)
+	for (char c = 'a'; c <= 'z'; c++)
     {
-        printf("%c ", ch);
+        putchar("%c ", c);
     }
 	return (0);
 
