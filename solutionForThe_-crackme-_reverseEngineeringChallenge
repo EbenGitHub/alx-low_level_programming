@@ -1,0 +1,11 @@
+strings ./a.out
+//But this is the very simple one and can only crack simple codes
+
+objdump -d -j .rodata ./a.out
+//This one is a little bit advanced
+
+
+/* 
+This all inspires me to learn assembly language and reverse engineering.. 
+It is really cool. Thank you ALX
+*/
